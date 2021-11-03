@@ -1,0 +1,29 @@
+%rip is on the next instruction that is about to execute
+but for ARM it is the address of the instruction after the next
+	instruction because of the early ARM processor architectures
+	that used a 3 stage pipeline (fetch, decode, execute)
+	so it points to the instruction to fetch rather than the
+	one that is abou the execute
+
+update About page
+
+make a new Github and change github link
+
+make youtube video and change youtube link
+
+Future work:
+leaq instruction
+	leaq 16(%rax), %rbx
+	leq (%rax, %rbx, 8), %rcx # rax + 8*rbx
+
+mov addressing modes
+	movl $0, 0xc(%rsp, %rdi, 4)  # indirect with displacement and scaled-index
+                              (address = base %rsp + displacement 0xc + index %rdi * scale 4)
+
+fix 64 bit arithmetic and bitwise - right now only using 32 bits
+
+add support for 32, 16, and 8 bit arithmetic
+	sign or zero extension on mov for example
+
+
+

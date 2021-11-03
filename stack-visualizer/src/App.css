@@ -1,0 +1,248 @@
+.AppComponents {
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between; 
+  margin-top: 1vh;
+}
+
+.Stack {
+  flex-direction: column;
+  width: 40vw;
+}
+
+.StackAddress {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.StackHeaderContainer {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9vw;
+  border-radius: 1vw;
+  background-color: lightskyblue;
+}
+
+.StackHeaderItem {
+  width: 40vw;
+}
+
+.ControlHeader {
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.7vw;
+  border-top-left-radius: 1vw;
+  border-top-right-radius: 1vw;
+  background-color: lightpink;
+}
+
+.StackFrames {
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 0.7vw;
+  flex-direction: row;
+  margin-bottom: 0.3vh;
+}
+
+.Scroll {
+  margin-top: 1vh;
+  padding-top: 1vh;
+  height: 82vh;
+  width: 40vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.StackPointer {
+  justify-content: flex-start;
+}
+
+.RegisterFile {
+  flex-direction: column;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  justify-content: center;
+  align-items: center;
+  background-color: powderblue;
+  border-radius: 1vw;
+}
+
+.Column {
+  flex-direction: column;
+}
+
+.PushFunctions {
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom-right-radius: 0.5vw;
+  border-bottom-left-radius: 0.5vw;
+  background-color: lightpink;  
+  padding: 1vw;
+  width: 100vw;
+}
+
+.PushButtons {
+  padding-bottom: 2vh;
+}
+
+.Row {
+  flex-direction: row;
+}
+
+.Center {
+  justify-content: center;
+}
+
+.RegHeading {
+  justify-content: center;
+  font-size: 0.7vw;
+}
+
+.ArmText {
+  width: 25vw;
+}
+
+.CommandContainer {
+  align-items: center;
+  flex-direction: row;
+}
+
+.RunTab {
+  justify-content: center;
+  align-items: center;
+  background-color: lightpink;
+  border-bottom-left-radius: 0.5vw;
+  border-bottom-right-radius: 0.5vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.VisualizeTab {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: lightpink;
+  border-bottom-left-radius: 0.5vw;
+  border-bottom-right-radius: 0.5vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.VisualizeSlider {
+  flex-direction: row;
+  justify-content: space-evenly ;
+  align-items: center;
+}
+
+.StepTab {
+  background-color: lightpink;
+  border-bottom-left-radius: 0.5vw;
+  border-bottom-right-radius: 0.5vw;  
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.StepStartButton {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.StepButtons {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.Hidden {
+  opacity: 0;
+}
+
+.Hidden:hover {
+   opacity: 1;
+}
+
+.RegFileFont {
+  font-size: 0.7vw;
+}
+
+.ArmInfo {
+  flex-direction: column;
+  text-align: center;
+}
+
+.GenCode {
+  margin-top: 1vh;
+  margin-left: 6vw;
+}
+
+.Links {
+  background-color: lightgray;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 0.5vw;
+}
+
+.RightPanel {
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  height: calc(99vh - 2.5vw);
+  width: 40vw;
+}
+
+.AboutLinks {
+  position: relative;
+}
+
+.AboutTextHeader {
+  font-size: 1.5vw;
+  background-color: lightskyblue;
+  justify-content: center;
+  border-top-right-radius: 1vw;
+  border-top-left-radius: 1vw;
+}
+
+.AboutTextBody {
+  font-size: 1vw;
+  background-color: lightskyblue;
+  justify-content: center;
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+}
+
+.SupportedInstructionsHeader {
+  font-size: 1.5vw;
+  background-color: lightskyblue;
+  justify-content: center;
+  border-top-right-radius: 1vw;
+  border-top-left-radius: 1vw;
+}
+
+.SupportedInstructionsSubHeader {
+  font-size: 1.5vw;
+  background-color: lightskyblue;
+  justify-content: center;
+}
+
+.SupportedInstructionsBody {
+  font-size: 1.5vw;
+  background-color: lightskyblue;
+  justify-content: center;
+  text-align: start;
+  margin-top: "5vh";
+}
+
+.SupportedInstructionsEndBody {
+  font-size: 1.5vw;
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+  background-color: lightskyblue;
+  justify-content: center;
+  text-align: start;
+  margin-top: "5vh";
+}
