@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/assembly_emulator/static/css/main.128a9f91.chunk.css",
+    "main.js": "/assembly_emulator/static/js/main.649a4143.chunk.js",
+    "main.js.map": "/assembly_emulator/static/js/main.649a4143.chunk.js.map",
+    "runtime-main.js": "/assembly_emulator/static/js/runtime-main.978c58eb.js",
+    "runtime-main.js.map": "/assembly_emulator/static/js/runtime-main.978c58eb.js.map",
+    "static/js/2.a87d2b11.chunk.js": "/assembly_emulator/static/js/2.a87d2b11.chunk.js",
+    "static/js/2.a87d2b11.chunk.js.map": "/assembly_emulator/static/js/2.a87d2b11.chunk.js.map",
+    "index.html": "/assembly_emulator/index.html",
+    "precache-manifest.b0f2192c3faba2c2d1c7f9ce882ca5ca.js": "/assembly_emulator/precache-manifest.b0f2192c3faba2c2d1c7f9ce882ca5ca.js",
+    "service-worker.js": "/assembly_emulator/service-worker.js",
+    "static/css/main.128a9f91.chunk.css.map": "/assembly_emulator/static/css/main.128a9f91.chunk.css.map",
+    "static/js/2.a87d2b11.chunk.js.LICENSE.txt": "/assembly_emulator/static/js/2.a87d2b11.chunk.js.LICENSE.txt",
+    "static/media/FunctionTool.png": "/assembly_emulator/static/media/FunctionTool.a6b038de.png",
+    "static/media/StepTool.png": "/assembly_emulator/static/media/StepTool.8d5065f5.png",
+    "static/media/youtube_social_icon_red.png": "/assembly_emulator/static/media/youtube_social_icon_red.8225eec1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.978c58eb.js",
+    "static/js/2.a87d2b11.chunk.js",
+    "static/css/main.128a9f91.chunk.css",
+    "static/js/main.649a4143.chunk.js"
+  ]
+}
