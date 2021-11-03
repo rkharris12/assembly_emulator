@@ -1,8 +1,8 @@
 {
-  "name": "stack-visualizer",
+  "name": "assembly_emulator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harrissteven.github.io/stack-visualizer",
+  "homepage": "https://rkharris12.github.io/assembly_emulator",
   "dependencies": {
     "@material-ui/core": "^4.10.1",
     "@material-ui/icons": "^4.9.1",
