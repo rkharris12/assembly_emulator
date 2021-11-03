@@ -11,7 +11,7 @@ class Links extends React.Component {
 
                 <Grid container className="Links">
                     <Grid item style={{padding: "1vw"}}>
-                        <a href= "https://github.com/HarrisSteven/stack-visualizer">
+                        <a href= "https://github.com/rkharris12/assembly_emulator">
                             <img style={{height: "2vw", width: "2vw"}} alt="Github" src={GhLogo}/>
                         </a>
                     </Grid>
