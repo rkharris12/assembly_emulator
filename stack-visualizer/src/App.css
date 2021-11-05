@@ -232,7 +232,7 @@
 .SupportedInstructionsBody {
   font-size: 1.5vw;
   background-color: lightskyblue;
-  justify-content: center;
+  justify-content: flex-start;
   text-align: start;
   margin-top: "5vh";
 }
@@ -242,7 +242,7 @@
   border-bottom-left-radius: 1vw;
   border-bottom-right-radius: 1vw;
   background-color: lightskyblue;
-  justify-content: center;
+  justify-content: flex-start;
   text-align: start;
   margin-top: "5vh";
 }

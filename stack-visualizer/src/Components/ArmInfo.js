@@ -15,7 +15,7 @@ class ArmInfo extends React.Component {
 
             <Grid container className="SupportedInstructionsHeader">
               <Grid item>
-                <h3>Supported Instructions</h3>
+                <h3>Supported Instructions (more instructions coming soon!)</h3>
               </Grid>
             </Grid>
 
@@ -93,10 +93,10 @@ class ArmInfo extends React.Component {
                   "jle <LabelName>\n" +
                   "jng <LabelName>\n" +
                   "call <LabelName>\n" +
-                  "leave" +
-                  "ret" +
+                  "leave\n" +
+                  "ret\n" +
                   "To add a label use '<LabelName>: <Instruction>'\n" + 
-                  "Immediates should begin with ‘$’ e.g. $15 or $0xF" + 
+                  "Immediates should begin with ‘$’ e.g. $15 or $0xF\n" + 
                   "Registers should begin with ‘%’ e.g. %rax or %esi"}
                 </pre>
               </Grid>
